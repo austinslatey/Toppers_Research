@@ -13,3 +13,6 @@ Unlimited Product Options with Live preview (4.8 Star rating)
 There is an option to upcharge for custom options which will end up costing $19.99/month for 299 products or $29.99 per month for unlimited products.
 
 <img src="./assets/zeptoPricing.png" alt="zepto-pricing" width="600">
+
+## Global Product Options
+Product Personalization, Customize Product, Product Variants
