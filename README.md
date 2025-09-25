@@ -16,8 +16,13 @@ There is an option to upcharge for custom options which will end up costing $19.
 <img src="./assets/zepto/zeptoPricing.png" alt="zepto-pricing" width="600">
 
 #### Strengths 
+- Seamless embed via theme customizer for any theme (2.0 preferred).
+- Responsive design works across devices; live previews adapt to your styling.
+- Custom fonts/colors easily match your theme.
 
 #### Drawbacks
+- Occasional manual positioning tweaks for non-2.0 themes.
+- Some users note initial setup time for complex previews.
 
 ## Globo Product Options
 Product Personalization, Customize Product, Product Variants 
@@ -31,8 +36,13 @@ Pricing appears to meet criteria for use case at $12.90 Monthly or $129 Annual
 <img src="./assets/globoProductOptions/globopricing.png" alt="globo-product-options" width="600">
 
 #### Strengths 
+- Smooth, user-friendly embed with conditional logic that fits most themes.
+- Supports custom styles (e.g., colors, fonts) to blend seamlessly.
+- Quick fixes for theme conflicts via support.
 
 #### Drawbacks
+- Rare off-hours support delays for urgent theme tweaks.
+- Minor integration needed for trial-mode themes.
 
 ## Easify Custom Product Options
 Pricing of $9.99 allows you to customize pricing for each product option
@@ -43,13 +53,13 @@ Pricing of $9.99 allows you to customize pricing for each product option
 <img src="./assets/easify/easify.png" alt="easify-pricing" width="600">
 
 #### Strengths 
-- Seamless embed via theme customizer for any theme (2.0 preferred).
-- Responsive design works across devices; live previews adapt to your styling.
-- Custom fonts/colors easily match your theme.
+- Fully compatible with 2.0 themes; easy activation in theme customizer.
+- Live previews and option fields auto-adapt to your layout.
+- Proactively handles theme drafts for safe testing.
 
 #### Drawbacks
-- Occasional manual positioning tweaks for non-2.0 themes.
-- Some users note initial setup time for complex previews.
+- Potential conflicts with heavily customized themes (rare, support resolves fast).
+- Limited to 2.0 for optimal no-code setup.
 
 ## Avis Product Options, Variants
 Seems legit 
@@ -60,5 +70,7 @@ Seems legit
 <img src="./assets/avis/pricing.png" alt="avis-pricing" width="600">
 
 #### Strengths 
-
+- Excellent no-code embed; auto-matches your theme's styling and layout.
+- Strong conditional logic integrates with native Shopify variants.
+- Mobile-friendly across all devices with minimal tweaks.
 #### Drawbacks
