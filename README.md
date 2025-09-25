@@ -16,3 +16,5 @@ There is an option to upcharge for custom options which will end up costing $19.
 
 ## Global Product Options
 Product Personalization, Customize Product, Product Variants
+    Build different Option sets for different products with custom style, color, and font
+
