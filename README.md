@@ -4,6 +4,7 @@
 - Zepto Product Personalizer
 - Global Product Options
 - Easify Product Options
+- Avis
 
 ## Zepto Product Personalizer
 Unlimited Product Options with Live preview (4.8 Star rating)
