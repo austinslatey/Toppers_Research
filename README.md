@@ -27,6 +27,9 @@ Pricing appears to meet criteria for use case at $12.90 Monthly or $129 Annual
 
 
 ## Easify Custom Product Options
+Pricing of $9.99 allows you to customize pricing for each product option
 <a href="https://apps.shopify.com/easify-product-options?surface_detail=product-options-pro&surface_inter_position=1&surface_intra_position=1&surface_type=app_details"> View in App Store </a> 
+
+<img src="./assets/easify/easify.png" alt="easify-pricing" width="600">
 
 
