@@ -10,15 +10,16 @@ Unlimited Product Options with Live preview (4.8 Star rating)
 <img src="./assets/zepto/zepto.png" alt="Zepto" width="600">
 
 ### Features 
-There is an option to upcharge for custom options which will end up costing $19.99/month for 299 products or $29.99 per month for unlimited products.
+There is an option to upcharge for custom options which will end up costing $19.99/month for 299 products or $29.99 per month for 500 products or 49.99 for unlimited products.
 
 <img src="./assets/zepto/zeptoPricing.png" alt="zepto-pricing" width="600">
 
 ## Globo Product Options
-Product Personalization, Customize Product, Product Variants
-    Build different Option sets for different products with custom style, color, and font
+Product Personalization, Customize Product, Product Variants 
+    - Build different Option sets for different products with custom style, color, and font
+    - There is an option to upcharge for custom options 
 
 ### Features
-There is an option to upcharge for custom options 
 <img src="./assets/globoProductOptions/product_option.png" alt="globo-product-options" width="600">
+<img src="./assets/globoProductOptions/globopricing.png" alt="globo-product-options" width="600">
 
