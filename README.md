@@ -19,6 +19,6 @@ Product Personalization, Customize Product, Product Variants
     Build different Option sets for different products with custom style, color, and font
 
 ### Features
-
+There is an option to upcharge for custom options
 <img src="./assets/globalProductOptions/product_option.png" alt="global-product-options" width="600">
 
