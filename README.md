@@ -36,6 +36,9 @@ Pricing of $9.99 allows you to customize pricing for each product option
 <img src="./assets/easify/easify.png" alt="easify-pricing" width="600">
 
 ## Avis Product Options, Variants
+
 <a href="https://apps.shopify.com/avisplus-product-options?surface_detail=easify-product-options&surface_inter_position=1&surface_intra_position=3&surface_type=app_details"> View in App Store </a> 
+
+<img src="./assets/avis/options.png" alt="avis-options" width="600">
 
 <img src="./assets/avis/pricing.png" alt="avis-pricing" width="600">
