@@ -2,9 +2,10 @@
 
 ## List of Potential Applications to serve acceptance criteria
 - Zepto Product Personalizer
+- Global Product Options
 
 ## Zepto Product Personalizer
-Unlimited Product Options with Live preview
+Unlimited Product Options with Live preview (4.8 Star rating)
 
 <img src="./assets/zepto.png" alt="Zepto" width="600">
 
