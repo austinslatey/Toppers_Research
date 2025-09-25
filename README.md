@@ -20,6 +20,13 @@ Product Personalization, Customize Product, Product Variants
     - There is an option to upcharge for custom options 
 
 ### Features
+Pricing appears to meet criteria for use case at $12.90 Monthly or $129 Annual
 <img src="./assets/globoProductOptions/product_option.png" alt="globo-product-options" width="600">
+
 <img src="./assets/globoProductOptions/globopricing.png" alt="globo-product-options" width="600">
+
+
+## Easify Custom Product Options
+<a href="https://apps.shopify.com/easify-product-options?surface_detail=product-options-pro&surface_inter_position=1&surface_intra_position=1&surface_type=app_details"> View in App Store </a> 
+
 
