@@ -4,6 +4,8 @@
 - Zepto Product Personalizer
 
 ## Zepto Product Personalizer
-Unlimited Product Options with Live preview ($10 month after 15 day trial)
+Unlimited Product Options with Live preview
+![Zepto](./assets/zepto.png)
 
 ### Features 
+The 
