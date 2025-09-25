@@ -15,6 +15,10 @@ There is an option to upcharge for custom options which will end up costing $19.
 
 <img src="./assets/zepto/zeptoPricing.png" alt="zepto-pricing" width="600">
 
+#### Strengths 
+
+#### Drawbacks
+
 ## Globo Product Options
 Product Personalization, Customize Product, Product Variants 
     - Build different Option sets for different products with custom style, color, and font
@@ -26,6 +30,9 @@ Pricing appears to meet criteria for use case at $12.90 Monthly or $129 Annual
 
 <img src="./assets/globoProductOptions/globopricing.png" alt="globo-product-options" width="600">
 
+#### Strengths 
+
+#### Drawbacks
 
 ## Easify Custom Product Options
 Pricing of $9.99 allows you to customize pricing for each product option
@@ -35,6 +42,15 @@ Pricing of $9.99 allows you to customize pricing for each product option
 
 <img src="./assets/easify/easify.png" alt="easify-pricing" width="600">
 
+#### Strengths 
+- Seamless embed via theme customizer for any theme (2.0 preferred).
+- Responsive design works across devices; live previews adapt to your styling.
+- Custom fonts/colors easily match your theme.
+
+#### Drawbacks
+- Occasional manual positioning tweaks for non-2.0 themes.
+- Some users note initial setup time for complex previews.
+
 ## Avis Product Options, Variants
 Seems legit 
 <a href="https://apps.shopify.com/avisplus-product-options?surface_detail=easify-product-options&surface_inter_position=1&surface_intra_position=3&surface_type=app_details"> View in App Store </a> 
@@ -42,3 +58,7 @@ Seems legit
 <img src="./assets/avis/options.png" alt="avis-options" width="600">
 
 <img src="./assets/avis/pricing.png" alt="avis-pricing" width="600">
+
+#### Strengths 
+
+#### Drawbacks
