@@ -14,11 +14,11 @@ There is an option to upcharge for custom options which will end up costing $19.
 
 <img src="./assets/zepto/zeptoPricing.png" alt="zepto-pricing" width="600">
 
-## Global Product Options
+## Globo Product Options
 Product Personalization, Customize Product, Product Variants
     Build different Option sets for different products with custom style, color, and font
 
 ### Features
-There is an option to upcharge for custom options
-<img src="./assets/globalProductOptions/product_option.png" alt="global-product-options" width="600">
+There is an option to upcharge for custom options 
+<img src="./assets/globoProductOptions/product_option.png" alt="globo-product-options" width="600">
 
