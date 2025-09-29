@@ -32,6 +32,7 @@ Product Personalization, Customize Product, Product Variants
 
 ### Features
 Pricing appears to meet criteria for use case at $12.90 Monthly or $129 Annual
+
 <img src="./assets/globoProductOptions/product_option.png" alt="globo-product-options" width="600">
 
 <img src="./assets/globoProductOptions/globopricing.png" alt="globo-product-options" width="600">
