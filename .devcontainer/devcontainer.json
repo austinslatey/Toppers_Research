@@ -1,0 +1,17 @@
+{
+  "name": "symmetrical-enigma-gw94xpwv67qh995j",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "tombonnike.vscode-gitdoc"
+      ],
+      "settings": {
+        "gitdoc.enable": true,
+        "gitdoc.autoCommit": true,
+        "gitdoc.autoPush": "afterDelay",
+        "gitdoc.includeUntracked": true,
+        "gitdoc.commitInterval": 0.5
+      }
+    }
+  }
+}``
