@@ -3,7 +3,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "tombonnike.vscode-gitdoc"
+        "tombonnike.vscode-gitdoc",
+        "vsls-contrib.gitdoc"
       ],
       "settings": {
         "gitdoc.enable": true,
