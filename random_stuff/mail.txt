@@ -1,10 +1,11 @@
 Gimena,
-You should have access to NetSuite now and should have gotten an email to set up your password (production)
+You should have access to NetSuite now and should have gotten an email to set up your password (production).
+
 Our product list is extensive, so it would be ideal to have our folder structure sorted by Vendor
 
-Currently, a folder inside of our NetSuite folder system (File Cabinet > Vendor Files) which contains a series of Vendor-Named Folders. 
-Within the Vendor-Named folders, a series of product-sku named folders contain publicly accessible images. 
-Naming Conventions of the images don't necessiarily follow a strict pattern, besides the image name starting with the product SKU and are ordered numerically besides the main image.
+Currently, a folder inside of our NetSuite folder system (File Cabinet > Vendor Files) which contains a series of Vendor-Named Folders. 
+Within the Vendor-Named folders, a series of product-sku named folders contain publicly accessible images.
+Naming Conventions of the images don't necessarily follow a strict pattern, besides the image name starting with the product SKU and are ordered numerically besides the main image.
 
 Generally, the product's images names follow a relative structure of:
 /VendorFiles/FirstExampleVendorName/
@@ -33,7 +34,7 @@ Regarding scripting, it should be easy enough to iterate through the image names
 
 IF "Product Image Name" CONTAINS "main"
 - SET image to Position 0 (i.e. Make it equal to: Item Image(Primary Information > Field ID: custitem_atlas_item_image) && Image URL 1(Shopify > Required > Field ID: custitem_nsc_shopify_image_url_1))
-AND 
+AND
 - SET 10001_1.jpg to array position 1 (Image URL 2)
 - SET 10001_2.jpg to array position 2 (Image URL 3)
 
@@ -41,8 +42,8 @@ AND
 
 Since we are on the relative subject of further automating inventory items; there are a couple Shopify fields our team would like simplified, if possible.
 
-1. Product Description (Shopify>Required >Field ID: custitem_nsc_shopify_prod_desc)
-2. Shopify Product Collections (Shopify>Required >Field ID: custitem_nsc_shopify_prod_collections)
+1. Product Description (Shopify>Required >Field ID: custitem_nsc_shopify_prod_desc)
+2. Shopify Product Collections (Shopify>Required >Field ID: custitem_nsc_shopify_prod_collections)
 
 Product Description Problem:
 Say an employee inserts plain text into this field, once the product is updated inside Shopify, it does not convert the text into a well structured text document.
@@ -64,10 +65,10 @@ Ordered list Heading
     1. Some detail about the Ordered List
     2. Some detail about the Ordered List
 
-*The Astric usually indicates Italic Text*
+*The Asterisk usually indicate Italic Text*
 Another *Variation* of Italic
 
-**Two Astrics usually indicates Bold Text**
+**Two Asterisks usually indicate Bold Text**
 Another **Variation** of Bold Text
 
 ```
@@ -99,7 +100,7 @@ DESIRED HTML CONVERSION:
 ```
 
 
-Shopify Product Collections Problem: 
+Shopify Product Collections Problem:
 Currently I don't think our field is set up to insert multiple collections into `Shopify Product Collections`
 I've tried multiple methods to see if there's anything that seperates multiple collection names, but have come to the conclusion that the field is just set up to only insert one Shopify Collection.
 
@@ -110,11 +111,8 @@ Example Input inside NetSuite:
 Shopify Collection 1, Shopify Collection 2
 
 Desired Behavior (Two Collections):
-- Shopify Collection 1 
+- Shopify Collection 1
 - Shopify Collection 2
 
 Actual Behavior:
 NetSuite Connector takes the value literally and creates a new collection named `Shopify Collection 1, Shopify Collection 2`
-
-
- 
