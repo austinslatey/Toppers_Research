@@ -1,0 +1,60 @@
+Gimena,
+You should have access to NetSuite now and should have gotten an email to set up your password (production)
+Our product list is extensive, so it would be ideal to have our folder structure sorted by Vendor
+
+Currently, a folder inside of our NetSuite folder system (File Cabinet > Vendor Files) which contains a series of Vendor-Named Folders. 
+Within the Vendor-Named folders, a series of product-sku named folders contain publicly accessible images. 
+Naming Conventions of the images don't necessiarily follow a strict pattern, besides the image name starting with the product SKU and are ordered numerically besides the main image.
+
+Generally, the product's images names follow a relative structure of: 
+- 10001_main.jpg
+- 10001_1.jpg
+- 10001_2.jpg
+
+Variations of the generic product's image naming conventions can include
+- 10001_ExampleVendorName_main.jpg
+- 10001_ExampleVendorName_1.jpg
+- 10001_ExampleVendorName_2.jpg
+| --------- OTHER VARIATION --------- |
+- 10001_ExampleVendorName_Waldoch_main.jpg
+- 10001_ExampleVendorName_Waldoch_1.jpg
+- 10001_ExampleVendorName_Waldoch_2.jpg
+
+Regarding scripting, it should be easy enough to iterate through the image names
+[
+    [10001_main.jpg, 10001_1.jpg, 10001_2.jpg], [0, 1, 2]
+]
+
+IF "Product Image Name" CONTAINS "main"
+- SET image to Position 0 (i.e. )
+
+If the images' naming convention needs to follow a strict pattern to have the script accept them, please let us know, and moving forward we will begin to name all images as such.
+ 
+
+
+```
+./Shopify/Products/FirstExampleVendorName/
+    ── 10001/
+       ── 10001_main.jpg
+       ── 10001_side1.jpg
+       ── 10001_zoom1.jpg
+    ── 10002/
+      ── 10002_main.jpg
+      ── 10002_back1.jpg
+
+/SecondExampleVendorName
+  ── 10001/
+       ── 10001_main.jpg
+       ── 10001_side1.jpg
+       ── 10001_zoom1.jpg
+    ── 10002/
+      ── 10002_main.jpg
+      ── 10002_back1.jpg
+
+```
+
+Since we are on the relative subject of further automating inventory items; there are a couple Shopify fields our team would like simplified, if possible.
+
+1. Product Description (Shopify>Required >Field ID: custitem_nsc_shopify_prod_desc)
+2. Shopify Product Collections (Shopify>Required >Field ID: custitem_nsc_shopify_prod_collections)
+ 
