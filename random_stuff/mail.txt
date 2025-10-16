@@ -99,7 +99,22 @@ DESIRED HTML CONVERSION:
 ```
 
 
+Shopify Product Collections Problem: 
+Currently I don't think our field is set up to insert multiple collections into `Shopify Product Collections`
+I've tried multiple methods to see if there's anything that seperates multiple collection names, but have come to the conclusion that the field is just set up to only insert one Shopify Collection.
 
+
+Is there a way to update the Field in NetSuite/NetSuite Connector to add logic that seperates values?
+
+Example Input inside NetSuite:
+Shopify Collection 1, Shopify Collection 2
+
+Desired Behavior (Two Collections):
+- Shopify Collection 1 
+- Shopify Collection 2
+
+Actual Behavior:
+NetSuite Connector takes the value literally and creates a new collection named `Shopify Collection 1, Shopify Collection 2`
 
 
  
