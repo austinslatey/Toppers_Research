@@ -6,12 +6,15 @@ Currently, a folder inside of our NetSuite folder system (File Cabinet > Vendor 
 Within the Vendor-Named folders, a series of product-sku named folders contain publicly accessible images. 
 Naming Conventions of the images don't necessiarily follow a strict pattern, besides the image name starting with the product SKU and are ordered numerically besides the main image.
 
-Generally, the product's images names follow a relative structure of: 
+Generally, the product's images names follow a relative structure of:
+/VendorFiles/FirstExampleVendorName/
 - 10001_main.jpg
 - 10001_1.jpg
 - 10001_2.jpg
 
-Variations of the generic product's image naming conventions can include
+If the images' naming convention needs to follow a strict pattern to have the script accept them, please let us know, and moving forward we will begin to name all images as such.
+
+Variations of the generic product's image naming conventions can include but are not limited to:
 - 10001_ExampleVendorName_main.jpg
 - 10001_ExampleVendorName_1.jpg
 - 10001_ExampleVendorName_2.jpg
@@ -19,39 +22,22 @@ Variations of the generic product's image naming conventions can include
 - 10001_ExampleVendorName_Waldoch_main.jpg
 - 10001_ExampleVendorName_Waldoch_1.jpg
 - 10001_ExampleVendorName_Waldoch_2.jpg
+| --------- OTHER VARIATION --------- |
+- 10001.jpg
+- 10001_1.jpg
+- 10001_2.jpg
+
 
 Regarding scripting, it should be easy enough to iterate through the image names
-[
-    [10001_main.jpg, 10001_1.jpg, 10001_2.jpg], [0, 1, 2]
-]
+`[[10001_main.jpg, 10001_1.jpg, 10001_2.jpg], [0, 1, 2]]`
 
 IF "Product Image Name" CONTAINS "main"
-- SET image to Position 0 (i.e. )
+- SET image to Position 0 (i.e. Make it equal to: Item Image(Primary Information > Field ID: custitem_atlas_item_image) && Image URL 1(Shopify > Required > Field ID: custitem_nsc_shopify_image_url_1))
+AND 
+- SET 10001_1.jpg to array position 1 (Image URL 2)
+- SET 10001_2.jpg to array position 2 (Image URL 3)
 
-If the images' naming convention needs to follow a strict pattern to have the script accept them, please let us know, and moving forward we will begin to name all images as such.
- 
 
-
-```
-./Shopify/Products/FirstExampleVendorName/
-    ── 10001/
-       ── 10001_main.jpg
-       ── 10001_side1.jpg
-       ── 10001_zoom1.jpg
-    ── 10002/
-      ── 10002_main.jpg
-      ── 10002_back1.jpg
-
-/SecondExampleVendorName
-  ── 10001/
-       ── 10001_main.jpg
-       ── 10001_side1.jpg
-       ── 10001_zoom1.jpg
-    ── 10002/
-      ── 10002_main.jpg
-      ── 10002_back1.jpg
-
-```
 
 Since we are on the relative subject of further automating inventory items; there are a couple Shopify fields our team would like simplified, if possible.
 
