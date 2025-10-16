@@ -43,4 +43,63 @@ Since we are on the relative subject of further automating inventory items; ther
 
 1. Product Description (Shopify>Required >Field ID: custitem_nsc_shopify_prod_desc)
 2. Shopify Product Collections (Shopify>Required >Field ID: custitem_nsc_shopify_prod_collections)
+
+Product Description Problem:
+Say an employee inserts plain text into this field, once the product is updated inside Shopify, it does not convert the text into a well structured text document.
+When an employee has to input data into this field, for it to be formatted nicely on Shopify they have to input the description as HTML.
+
+Is there a way to convert plain text into something that Shopify can read as markup?
+
+Plain Text Example:
+```
+Product Description
+    This is a product description, but
+    A new line in the product description should indicate a line break
+
+Unordered list Heading
+    - Some detail about the Unordered List
+    - Some detail about the Unordered List
+
+Ordered list Heading
+    1. Some detail about the Ordered List
+    2. Some detail about the Ordered List
+
+*The Astric usually indicates Italic Text*
+Another *Variation* of Italic
+
+**Two Astrics usually indicates Bold Text**
+Another **Variation** of Bold Text
+
+```
+
+Shopify allows plain text but it seems every new line is simply a semantic <p> tag in HTML
+DESIRED HTML CONVERSION:
+```
+<h2>Product Description</h2>
+<p>This is a product description, but</p>
+<p>A new line in the product description should indicate a line break</p>
+
+<h3>Unordered list Heading</h3>
+<ul>
+    <li>Some detail about the Unordered List</li>
+    <li>Some detail about the Unordered List</li>
+</ul>
+
+<h3>Ordered list Heading</h3>
+<ol>
+    <li>Some detail about the Ordered List</li>
+    <li>Some detail about the Ordered List</li>
+</ol>
+
+<p><i>The Astric usually indicates Italic Text</i></p>
+<p>Another <i>Variation</i> of Italic</p>
+
+<p><strong>Two Astrics usually indicates Bold Text</strong></p>
+<p>Another<strong>Variation</strong> of Bold Text</p>
+```
+
+
+
+
+
  
